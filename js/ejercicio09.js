@@ -13,7 +13,7 @@ const generateRandom = (size) =>{
         return null;
     }
     for (let i = 0; i < size; i++) {
-        let randomnum = Math.floor(Math.random() * 9);;
+        let randomnum = Math.floor(Math.random() * 9);
         array.push(randomnum);
         console.log("posicion "+i+" tenemos e valor: "+randomnum);
     }
